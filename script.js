@@ -15,7 +15,7 @@ function fun(e){
 		setTimeout(()=>{
 			if(a>=18)
 			{
-				resolve("Welcome, "+b+". You can vote.")
+				resolve("Welcome, "+ b +". You can vote.")
 			}
 			else{
 				reject(`oh sorry ${b}. You aren't old enough`);
