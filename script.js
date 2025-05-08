@@ -13,12 +13,12 @@ function fun(e){
 	}
 	const  eligibility=new Promise((resolve,reject)=>{
 		setTimeout(()=>{
-			if(parseInt(a)>=18)
+			if(parseInt(a)>18)
 			{
 				resolve("Welcome, "+ b +". You can vote.")
 			}
 			else{
-				reject(`oh sorry ${b}. You aren't old enough`);
+				reject(`Oh sorry ${b}. You aren't old enough`);
 			}
 		},4000);
 		
