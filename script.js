@@ -23,7 +23,7 @@ function fun(e){
 		},4000);
 		
 	});
-	elegibilty.then((message)=>{
+	eligibility.then((message)=>{
 		alert(message);
 	})
 	.catch((eroor)=>{
