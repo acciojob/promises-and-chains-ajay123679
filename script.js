@@ -18,7 +18,7 @@ function fun(e){
 				resolve("Welcome, "+ b +". You can vote.")
 			}
 			else{
-				reject(`Oh sorry ${b}. You aren't old enough`);
+				reject(`Oh sorry ${b}. You aren't old enough.`);
 			}
 		},4000);
 		
