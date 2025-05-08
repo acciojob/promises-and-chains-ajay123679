@@ -6,7 +6,7 @@ function fun(e){
 	e.preventDefault();
 	let a=document.getElementById("age").value.trim();
 	let b=document.getElementById("name").value.trim();
-	if(a="" || b="")
+	if(a=="" || b=="")
 	{
 		alert("Please enter valid details");
 		return;
